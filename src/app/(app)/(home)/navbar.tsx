@@ -57,7 +57,7 @@ const navbarItems = [
 
 export const Navbar = () => {
     const pathname =usePathname();
-    const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+    const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   return (
     <nav className="h-20 flex items-center justify-between px-6 border-b font-medium bg-white">
